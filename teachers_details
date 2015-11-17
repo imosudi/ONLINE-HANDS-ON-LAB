@@ -1,0 +1,18 @@
+#!/bin/bash
+##name, email and password
+rm -r details; mkdir details
+cd details
+for (( i=100;i<200;i++ )) do
+name0=" 'teacher"
+name1="('teacher"
+name2="', "
+name3=$name1$i$name2
+password=$(makepasswd)
+name4="'$password"
+name5="'),"
+login_email2="@mioemi.com', "
+login_email3=$name1$i$login_email2
+details=$name1$i$name2$name0$i$login_email2$name4$name5
+echo $details
+echo $details >> details.txt
+done
