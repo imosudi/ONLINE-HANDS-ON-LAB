@@ -1,0 +1,25 @@
+shuf
+pwd
+mount
+ls
+df
+touch
+mkdir
+ping
+time
+chown
+chmod
+locate
+echo
+cat
+date
+calendar
+cal
+uname
+find
+join
+ps
+top
+whereis
+whoami
+who am i
